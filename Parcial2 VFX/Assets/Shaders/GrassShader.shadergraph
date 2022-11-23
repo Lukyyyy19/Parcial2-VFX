@@ -5846,7 +5846,7 @@
     "m_Name": "TrackerPos",
     "m_DefaultReferenceName": "Vector3_e68c4c3898ec435198bee7042e71eb56",
     "m_OverrideReferenceName": "_trackerPos",
-    "m_GeneratePropertyBlock": true,
+    "m_GeneratePropertyBlock": false,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
