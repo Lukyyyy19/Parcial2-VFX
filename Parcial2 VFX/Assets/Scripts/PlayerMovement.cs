@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     float _movHor;
     float _movVer;
-    float _speed = 15;
+    [SerializeField]float _speed = 7.5f;
     Vector2 _sensibility;
     CharacterController _charController;
     Camera _cam;
