@@ -6,11 +6,10 @@ public class PlayerMovement : MonoBehaviour
 {
     float _movHor;
     float _movVer;
-    [SerializeField] float _speed = 7.5f;
+    [SerializeField]float _speed = 7.5f;
     Vector2 _sensibility;
     CharacterController _charController;
     Camera _cam;
-    [SerializeField] Vector3 dir;
     void Start()
     {
         _charController = GetComponent<CharacterController>();
@@ -24,8 +23,7 @@ public class PlayerMovement : MonoBehaviour
         _movHor = Input.GetAxis("Horizontal");
         _movVer = Input.GetAxis("Vertical");
 
-        Gravity();
-        dir = (transform.right * _movHor + transform.forward * _movVer) * Time.deltaTime * _speed;
+        Vector3 dir = (transform.right * _movHor + transform.forward * _movVer) * Time.deltaTime * _speed;
         if (_charController.isGrounded)
         {
             _charController.Move(new Vector3(dir.x, -.05f, dir.z));
@@ -39,21 +37,6 @@ public class PlayerMovement : MonoBehaviour
         ArtificialUpdate();
     }
 
-    void Gravity()
-    {
-        if (_charController.isGrounded)
-        {
-            Debug.Log("en el piso");
-            float groundedGravity = -.05f;
-            dir.y = groundedGravity;
-        }
-        else
-        {
-            Debug.Log("en el aire");
-            float gravity = -9.8f;
-            dir.y += gravity;
-        }
-    }
     public void ArtificialUpdate()
     {
         float hor = Input.GetAxis("Mouse X");
