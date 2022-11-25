@@ -781,7 +781,7 @@
         "m_GuidSerialized": "adc2454e-8224-4df3-8156-9cbc23e91d98"
     },
     "m_Name": "MainTex",
-    "m_DefaultReferenceName": "",
+    "m_DefaultReferenceName": "Texture2D_37a427afb09a49a9af14601f90747746",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
@@ -808,10 +808,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1587.5,
-            "y": -57.0,
-            "width": 0.0,
-            "height": 0.0
+            "x": -1627.0001220703125,
+            "y": -87.0000228881836,
+            "width": 134.00001525878907,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -997,7 +997,7 @@
         "m_GuidSerialized": "860d2667-c848-4c46-b04c-dc38959790df"
     },
     "m_Name": "SnowSlider",
-    "m_DefaultReferenceName": "",
+    "m_DefaultReferenceName": "Vector1_448a98563133408d9a726281e0fdb56c",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
@@ -1301,7 +1301,7 @@
         "m_GuidSerialized": "59ae6787-d2ac-4ab8-b8cd-bf56c283b4ad"
     },
     "m_Name": "SnowColor",
-    "m_DefaultReferenceName": "",
+    "m_DefaultReferenceName": "Vector4_5c909a7b643048eb8841e9f989c000e6",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
@@ -1345,10 +1345,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 363.5,
-            "y": -693.5,
-            "width": 0.0,
-            "height": 0.0
+            "x": 333.0,
+            "y": -844.0,
+            "width": 140.0,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -1451,10 +1451,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 1573.5,
-            "y": 0.0,
-            "width": 0.0,
-            "height": 0.0
+            "x": 3474.0,
+            "y": -52.99981689453125,
+            "width": 120.0,
+            "height": 101.0
         }
     },
     "m_Slots": [
@@ -1483,7 +1483,7 @@
         "m_GuidSerialized": "a4250d2f-579e-4258-a764-c5fa11769351"
     },
     "m_Name": "SnowAngle",
-    "m_DefaultReferenceName": "",
+    "m_DefaultReferenceName": "Vector1_6c2b0a7bb96d485eb2a7e927a5726a3f",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
@@ -1770,7 +1770,7 @@
         "m_GuidSerialized": "f376d473-3000-4a40-8f88-e830348e2dbf"
     },
     "m_Name": "SnowHeight",
-    "m_DefaultReferenceName": "",
+    "m_DefaultReferenceName": "Vector1_880cf59718104dad8a6a4889979ea807",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
@@ -2361,10 +2361,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -288.49993896484377,
-            "y": -634.0,
-            "width": 0.0,
-            "height": 0.0
+            "x": -322.99993896484377,
+            "y": -860.9999389648438,
+            "width": 129.0,
+            "height": 34.0
         }
     },
     "m_Slots": [
