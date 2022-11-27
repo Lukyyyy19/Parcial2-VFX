@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Liquid
-  m_Shader: {fileID: -6465566751694194690, guid: 0d268f239c9033d4f826dcd6be7835fc, type: 3}
+  m_Name: Bubbles
+  m_Shader: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 4ea6d7d65dcb043478b9e50f9f57daf4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -76,10 +76,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_13f44dd0e41f46f5831ca93ca9dd9e53: 3
-    - Vector1_9f437d5f17d34d70afa7ed2d46405833: 0.04
-    - Vector1_f0bfa0f5f77640e9b3f73dbc1fa387c2: 0.15
-    - Vector1_f893ed9b54cc49c79a9a2d8b89173ef6: -0.24
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -104,20 +100,15 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _WobbleX: 0
-    - _WobbleZ: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_b56777b9f83744aca5b0da67fdcefa68: {r: 0.4433962, g: 0.023753371, b: 0, a: 0}
-    - Color_cb3b51e5970642c9b66b36044d92a581: {r: 0.754717, g: 0, b: 0, a: 0}
-    - Color_da6775b6a0d04907839bfbe0366f6f19: {r: 1, g: 0.27286676, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &4620443512602518990
+--- !u!114 &8728837263983906022
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
