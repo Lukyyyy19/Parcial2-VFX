@@ -13,7 +13,7 @@ public class SnowShader : MonoBehaviour
     {
        _snowCounter =  Mathf.Clamp(_snowCounter,_minSnow,_maxSnow);
         _snowCounter-=Time.deltaTime * _timeScale;
-        Debug.Log(_snowCounter);
+        // Debug.Log(_snowCounter);
         Shader.SetGlobalFloat("_SnowSlider",_snowCounter);
     }
 }
