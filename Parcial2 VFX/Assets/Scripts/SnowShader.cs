@@ -8,6 +8,10 @@ public class SnowShader : MonoBehaviour
     [SerializeField]float _minSnow;
     [SerializeField]float _maxSnow;
     [SerializeField]float _timeScale;
+
+    private void Start() {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
     // Update is called once per frame
     void Update()
     {
